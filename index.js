@@ -83,7 +83,7 @@ app.delete("/api/notes/:id", (request, response) => {
     .catch((error) => {
       console.log(error);
       response.status(400).status({
-        error: 'malformatted id'
+        error: 'malformatted id '
       })
     })
 });
